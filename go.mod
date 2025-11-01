@@ -8,6 +8,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.87.0
 	github.com/caddyserver/caddy/v2 v2.10.2
 	github.com/jszwec/s3fs/v2 v2.0.0
+	github.com/kelindar/s3 v0.1.1
 )
 
 require (

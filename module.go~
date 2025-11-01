@@ -19,13 +19,13 @@ func init() {
 
 // Interface guards
 var (
-	_ fs.FS                 = (*FS)(nil)
+	_ fs.StatFS             = (*FS)(nil)
 	_ caddyfile.Unmarshaler = (*FS)(nil)
 )
 
 // FS is a Caddy virtual filesystem module for AWS S3 (and compatible) object store.
 type FS struct {
-	fs.FS `json:"-"`
+	fs.StatFS `json:"-"`
 
 	// The name of the S3 bucket.
 	Bucket string `json:"bucket,omitempty"`
@@ -87,7 +87,7 @@ func (fs *FS) Provision(ctx caddy.Context) error {
 	bucket.Lazy = true
 
 	// ReadSeeker is required by Caddy
-	fs.FS = bucket
+	fs.StatFS = bucket
 
 	return nil
 }
