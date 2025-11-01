@@ -99,6 +99,8 @@ github.com/json-iterator/go v1.1.6/go.mod h1:+SdeFBvtyEkXs7REEP0seUULqWtbJapLOCV
 github.com/jstemmer/go-junit-report v0.0.0-20190106144839-af01ea7f8024/go.mod h1:6v2b51hI/fHJwM22ozAgKL4VKDeJcHhJFhtBdhmNjmU=
 github.com/jszwec/s3fs/v2 v2.0.0 h1:Y6UY8pW7KsJpx+hhYgmik9W3W2OiTYaY4r0J/8dGSh0=
 github.com/jszwec/s3fs/v2 v2.0.0/go.mod h1:juc0h9XDG+U/dDwOprq7p1VUFrumRA5B6XlBbuDysB8=
+github.com/kelindar/s3 v0.1.1 h1:m8v/YlRjyrJ2PGc4kSYwpmj/qFXytsB3VB+CWcjVv84=
+github.com/kelindar/s3 v0.1.1/go.mod h1:O2/uN3efPfCUVNmNPHNBY242Bm7LIu+RHQ7bDU5iUXs=
 github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+oQHNcck=
 github.com/klauspost/cpuid/v2 v2.3.0 h1:S4CRMLnYUhGeDFDqkGriYKdfoFlDnMtqTiI/sFzhA9Y=
 github.com/klauspost/cpuid/v2 v2.3.0/go.mod h1:hqwkgyIinND0mEev00jJYCxPNVRVXFQeu1XKlok6oO0=
